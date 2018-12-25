@@ -38,6 +38,7 @@ public class LoginPage {
 	public void setUserName(String uname)
 	{
 		txtUserName.sendKeys(uname);
+		System.out.println("this is username");
 	}
 	
 	public void setPassword(String pwd)
